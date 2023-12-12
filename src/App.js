@@ -1,4 +1,5 @@
 // import "style.css";
+import About from "./components/About/about";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 import Github from "./components/Github/github";
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Intro />
+      <About />
       <Skills />
       <Works />
       <Contact />

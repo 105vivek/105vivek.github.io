@@ -9,7 +9,7 @@ import Portfolio6 from "../../assets/portfolio-6.png";
 
 const Works = () => {
   return (
-    <section id="works">
+    <section id="projects">
       <h2 className="worksTitle">My Portfolio</h2>
       <span className="worksDesc">
         I take pride in attention to the smallest details and How To Make
