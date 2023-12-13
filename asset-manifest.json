@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.429b7d88.css",
-    "main.js": "/static/js/main.7f93f466.js",
-    "static/media/portfolio-6.png": "/static/media/portfolio-6.4a10fac7d271e87859e9.png",
-    "static/media/portfolio-2.png": "/static/media/portfolio-2.33d06b368b4e6395030e.png",
-    "static/media/portfolio-4.png": "/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
-    "static/media/portfolio-1.png": "/static/media/portfolio-1.b33adf772d54ab33e953.png",
-    "static/media/portfolio-5.png": "/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
+    "main.css": "/static/css/main.8d01add3.css",
+    "main.js": "/static/js/main.894d5f5c.js",
     "static/media/image1.png": "/static/media/image1.77ad8f2346578319c7a4.png",
-    "static/media/portfolio-3.png": "/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/skinstore.jpg": "/static/media/skinstore.82102e80c075a426bd54.jpg",
+    "static/media/fingerhut.jpg": "/static/media/fingerhut.6cbe3358e984b16b2a7d.jpg",
+    "static/media/alcazar.jpg": "/static/media/alcazar.571c7d60d4114f52b951.jpg",
     "static/media/facebook.png": "/static/media/facebook.81dd033a37c4860f7121.png",
     "static/media/ui-design.png": "/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "static/media/instagram.png": "/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/index.html",
-    "main.429b7d88.css.map": "/static/css/main.429b7d88.css.map",
-    "main.7f93f466.js.map": "/static/js/main.7f93f466.js.map"
+    "main.8d01add3.css.map": "/static/css/main.8d01add3.css.map",
+    "main.894d5f5c.js.map": "/static/js/main.894d5f5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.429b7d88.css",
-    "static/js/main.7f93f466.js"
+    "static/css/main.8d01add3.css",
+    "static/js/main.894d5f5c.js"
   ]
 }
