@@ -8,7 +8,8 @@ const Navbar = () => {
   const [showMenu, setshowMenu] = useState(false);
   return (
     <nav id="nav-menu">
-      <img src={logo} alt="Logo" className="logo" />
+      {/* <img src={logo} alt="Logo" className="logo" /> */}
+      <h1 style={{ color: "yellow" }}>Vivek </h1>
       <div className="desktopMenu">
         {/* <Link></Link> */}
         <Link
@@ -53,8 +54,8 @@ const Navbar = () => {
           smooth={true}
           offset={-60}
           duration={500}
-          // className="nav-link projects"
-          className="desktopMenuListItem"
+          className="nav-link projects"
+          // className="desktopMenuListItem"
         >
           Projects
         </Link>
@@ -66,8 +67,8 @@ const Navbar = () => {
           smooth={true}
           offset={-60}
           duration={500}
-          // className="nav-link resume"
-          className="desktopMenuListItem"
+          className="nav-link resume"
+          // className="desktopMenuListItem"
         >
           Resume
         </Link>

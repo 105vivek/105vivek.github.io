@@ -11,15 +11,19 @@
     position: absolute;
     top: -4rem;
     right: 0;
-
+margin-top: 80px;
   z-index: -1;
   object-fit: cover;
-  height: 100vh;
+  height: 80vh;
+  width: 70vh;
   border-radius: 50%;
+  background:rgb(245, 200, 200);
+  padding-bottom: 30px;
+
 }
 .introContent{
     height: 100vh;
-    width: 100vw;
+    width: 50vw;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
@@ -37,9 +41,14 @@
     color: yellow;
 }
 .introPara{
-    font-size: medium;
-    letter-spacing: 1px;
-    font-weight: 300;
+    font-size: large;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(163, 163, 163);
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+
 }
 .btn{
     background-color: white;
@@ -52,6 +61,7 @@
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1rem;
+
     /* padding: ; */
 }
 @media screen and (max-width:840px){

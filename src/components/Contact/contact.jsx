@@ -58,29 +58,64 @@ const Contact = () => {
           <button type="submit" value="Send" className="submitBtn">
             Submit
           </button>
-          <div className="links">
+          {/* <div className="links">
             <img src={facebookIcon} alt="" className="link" />
             <img src={twitterIcon} alt="" className="link" />
             <img src={youTubeIcon} alt="" className="link" />
             <img src={instagramIcon} alt="" className="link" />
+          </div> */}
+          <div className="links">
+            <div id="contact-github">
+              {/* <br /> */}
+              <a href="https://github.com/105vivek">
+                <img
+                  className="contact_img"
+                  // style={{ background: "white" }}
+                  src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                  alt=""
+                />
+                <br />
+                GitHUb
+              </a>
+            </div>
+            <div id="contact-linkedin">
+              {/* <br /> */}
+              <a href="https://www.linkedin.com/in/vivek-yadav-332752227/">
+                <img
+                  className="contact_img"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+                  alt=""
+                />
+                <br />
+                Linkedin
+              </a>
+            </div>
+            <div id="contact-phone">
+              {/* <br /> */}
+              <a href="">
+                <img
+                  className="contact_img"
+                  src="https://png.pngtree.com/png-vector/20190120/ourmid/pngtree-calling-vector-icon-png-image_470733.jpg"
+                  alt=""
+                />
+                <br />
+                8707710161
+              </a>
+            </div>
+            <div id="contact-email">
+              {/* <br /> */}
+              <a href="https://mail.google.com/mail/u/0/#inbox">
+                <img
+                  className="contact_img"
+                  src="https://media.istockphoto.com/id/1125279178/vector/mail-line-icon.jpg?s=612x612&w=0&k=20&c=NASq4hMg0b6UP9V0ru4kxL2-J114O3TaakI467Pzjzw="
+                  alt=""
+                />
+                <br />
+                105vivekyadav@gmail.com
+              </a>
+            </div>
           </div>
         </form>
-      </div>
-      <div className="network">
-        <div id="contact-github">
-          <a href="https://github.com/105vivek">GitHUb</a>
-        </div>
-        <div id="contact-linkedin">
-          <a href="https://www.linkedin.com/in/vivek-yadav-332752227/">
-            Linkedin
-          </a>
-        </div>
-        <div id="contact-phone">8707710161</div>
-        <div id="contact-email">
-          <a href="https://mail.google.com/mail/u/0/#inbox">
-            105vivekyadav@gmail.com
-          </a>
-        </div>
       </div>
     </section>
   );

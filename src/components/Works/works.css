@@ -16,6 +16,28 @@
 
 
 }
+.project-card{
+    display: flex;
+    gap: 40px;
+    /* margin: 50px; */
+    margin-bottom: 20px;
+}
+.right>a{
+    margin: 10px;
+}
+.project-tech-stack{
+    border: 2px solid red;
+
+    /* background-color: yellow; */
+    /* text-align: center; */
+    /* align-items: center; */
+    padding-top: 5px;
+    margin-left: 30px;
+
+    border-radius: 20%;
+    height: 40px;
+    width: 90px;
+}
 .worksDesc{
     font-weight: 300;
     font-size: 1rem;

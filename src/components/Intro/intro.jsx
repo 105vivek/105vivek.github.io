@@ -9,14 +9,32 @@ const Intro = () => {
       <div className="introContent">
         <span className="hello">Hello,</span>
         <span className="introText">
-          I'm <span className="introName">Vivek</span>
+          I'm <span className="introName">Vivek Yadav</span>
           <br />
-          Website Designer
+          Full Stack Web Developer.
+          {/* <br /> */}
         </span>
+        {/* <br /> */}
+        {/* <br /> */}
         <p className="introPara">
-          I am a skilled web Designer with experience in creating <br /> visual
-          appearing and user friendly website
+          A motivated and versatile individual, always eager to take on new
+          challenges. With a passion for learning I am dedicated to delivering
+          high-quality results. With a positive attitude and a growth mindset, I
+          am ready to make a meaningful contribution and achieve great things.
+          You can reach me at{" "}
+          <a
+            onClick={() => {
+              document
+                .getElementById("contactPage")
+                .scrollIntoView({ behavior: "smooth" });
+            }}
+            style={{ cursor: "pointer" }}
+            href=""
+          >
+            Contact Me
+          </a>
         </p>
+
         <Link>
           <button className="btn">
             <img src={btnImg} className="btnImg" alt="" /> Hire me
@@ -24,6 +42,7 @@ const Intro = () => {
         </Link>
       </div>
       <img src={bg} alt="" className="home-img" />
+      {/* <br /> */}
     </section>
   );
 };
